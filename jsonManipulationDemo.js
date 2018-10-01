@@ -1,4 +1,4 @@
-exports.demo = function() {
+function demo() {
     var json = {
         'person' : {
             'name' : 'Bojan',
@@ -8,15 +8,15 @@ exports.demo = function() {
         'hasPilotLicense' : false,
         'hasDrivingLicense' : true,
         'hasSpaceShuttleLicense' : null
-    }
+    };
     
     var json_person_empty = {
         'person' : {}
-    }
+    };
     
     var json_person_null = {
         'person' : null
-    }
+    };
     
     
     //
@@ -246,7 +246,7 @@ exports.demo = function() {
 //
 // JSON.parse() turns json string into JS object
 
-exports.jsonParseDemo = function() {
+function jsonParseDemo() {
     var malformedJson = '{ \'name\' : \'Bojan\', \'surname\' }';
     var personObject = null;
 
@@ -262,3 +262,12 @@ exports.jsonParseDemo = function() {
         console.log('JSON string is valid.');
     }
 }
+
+function jsonManipulationDemo() {
+    demo();
+    jsonParseDemo();
+}
+
+module.exports = {
+    jsonManipulationDemo : jsonManipulationDemo
+};
