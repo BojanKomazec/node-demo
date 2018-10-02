@@ -6,12 +6,17 @@
 // const { packageDemoDel } = require('./packageDemoDel.js');
 // const { packageDemoAnsiColors } = require('./packageDemoAnsiColors.js');
 // const { packageDemoFancyLog } = require('./packageDemoFancyLog.js');
-const { moduleDemoFs } = require('./moduleDemoFs.js');
+// const { moduleDemoFs } = require('./moduleDemoFs.js');
+// const { moduleDemoPath } = require('./moduleDemoPath.js');
+// const { packageDemoReplaceInFile } = require('./packageDemoReplaceInFile.js');
+const { moduleDemoChildProcess } = require('./moduleDemoChildProcess.js');
 
 console.log('main.js');
 
-// jsonManipulationDemo();s
+// jsonManipulationDemo();
 // processDemo();
 // packageDemoDel();
 // packageDemoAnsiColors();
-moduleDemoFs();
+// moduleDemoFs();
+// moduleDemoPath();
+moduleDemoChildProcess();
