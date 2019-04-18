@@ -9,7 +9,8 @@
 // const { moduleDemoFs } = require('./moduleDemoFs.js');
 // const { moduleDemoPath } = require('./moduleDemoPath.js');
 // const { packageDemoReplaceInFile } = require('./packageDemoReplaceInFile.js');
-const { moduleDemoChildProcess } = require('./moduleDemoChildProcess.js');
+// const { moduleDemoChildProcess } = require('./moduleDemoChildProcess.js');
+const { httpClientDemo } = require('./modules/httpClientDemo')
 
 console.log('main.js');
 
@@ -19,4 +20,5 @@ console.log('main.js');
 // packageDemoAnsiColors();
 // moduleDemoFs();
 // moduleDemoPath();
-moduleDemoChildProcess();
+// moduleDemoChildProcess();
+httpClientDemo();
