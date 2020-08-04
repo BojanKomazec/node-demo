@@ -1,7 +1,13 @@
 # node-demo
-Node.js demo project
+Node.js demo project which demonstrates various features of both vanilla JavaScript and NodeJS.
 
 npm (Node Package Manager) is included in the Node.js distribution.
+
+# How to run this application?
+
+```
+$ node main.js
+```
 
 # How to update node and npm on Windows?
 

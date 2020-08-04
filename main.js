@@ -10,7 +10,8 @@
 // const { moduleDemoPath } = require('./moduleDemoPath.js');
 // const { packageDemoReplaceInFile } = require('./packageDemoReplaceInFile.js');
 // const { moduleDemoChildProcess } = require('./moduleDemoChildProcess.js');
-const { httpClientDemo } = require('./modules/httpClientDemo')
+// const { httpClientDemo } = require('./modules/httpClientDemo')
+const { functionDemo } = require('./modules/js-demo/functionDemo')
 
 console.log('main.js');
 
@@ -21,4 +22,5 @@ console.log('main.js');
 // moduleDemoFs();
 // moduleDemoPath();
 // moduleDemoChildProcess();
-httpClientDemo();
+// httpClientDemo();
+functionDemo();
